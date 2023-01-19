@@ -87,7 +87,7 @@ li {
 } */
 .image-footer {
 
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #747474;
     margin: 0;
     /* background-color: purple; */
 }
@@ -127,12 +127,13 @@ a+ul+li {
     /* display: inline-block; */
     position: relative;
     text-align: right;
-
+    color: #747474
 }
 
 .image-caption>a {
     position: relative;
     text-align: right;
+    color: rgb(0, 0, 0);
 }
 
 .image-caption>ul li {
@@ -159,6 +160,7 @@ li:first-child .image-caption span:nth-of-type(1) {
 
     margin-left: 255px;
 
+
 }
 
 li:nth-of-type(2) .image-caption span:nth-last-of-type(2) {
@@ -182,8 +184,7 @@ li:nth-of-type(3) .image-caption span:nth-of-type(1) {
 }
 
 .image-number {
-    color: white;
-    background: green;
+    color: 747474;
     left: 0;
 }
 
