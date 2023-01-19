@@ -1,0 +1,190 @@
+body {
+    margin: 0;
+    height: 100%;
+
+
+
+}
+
+.octodex {
+    display: inline-block;
+    /* background-color: purple; */
+
+
+
+}
+
+.octocat {
+
+    top: 0;
+
+    position: relative;
+    display: inline-block;
+
+}
+
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* .octocat:nth-of-type(2) {
+    background-color: green;
+
+}
+
+.octocat:nth-of-type(3) {
+    background-color: blue;
+} */
+
+ul,
+li {
+    list-style: none;
+    padding: 0;
+
+
+
+}
+
+.octocat>a>img {
+
+    max-width: 450px;
+
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+
+
+}
+
+/* .octocat:nth-of-type(1)>a>img {}
+
+.octocat:nth-of-type(2)>a>img {
+
+
+}
+
+.octocat:nth-of-type(3)>a>img {
+
+
+} */
+.image-footer {
+
+    border-bottom: 1px solid grey;
+    margin: 0;
+    /* background-color: purple; */
+}
+
+/* .image-footer>.image-number+span,
+a+ul+li {
+    display: inline-block;
+    position: absolute;
+} */
+
+.image-number {
+    content: '&num;';
+    text-align: left;
+    left: 0;
+
+    /* display: block;
+    position: absolute; */
+
+}
+
+.image-number::before {
+    content: '\0023';
+}
+
+.image-footer {
+    display: block;
+    position: relative;
+}
+
+.image-caption {
+    display: inline-block;
+    /* position: relative; */
+    text-align: right;
+}
+
+.image-caption>span {
+    /* display: inline-block; */
+    position: relative;
+    text-align: right;
+
+}
+
+.image-caption>a {
+    position: relative;
+    text-align: right;
+}
+
+.image-caption>ul li {
+    text-align: right;
+}
+
+
+.authors {
+    display: inline-block;
+}
+
+/* .image-caption>span,
+span+a {
+    background-color: firebrick;
+    display: block;
+    position: relative; 
+
+    display: inline-block;
+
+} */
+
+
+li:first-child .image-caption span:nth-of-type(1) {
+
+    margin-left: 255px;
+
+}
+
+li:nth-of-type(2) .image-caption span:nth-last-of-type(2) {
+
+    margin-left: 142px;
+}
+
+
+li:nth-of-type(3) .image-caption span:nth-of-type(1) {
+    margin-left: 240px;
+    color: red;
+}
+
+.authors li>a>img {
+
+    max-width: 40px;
+
+    position: relative;
+
+
+}
+
+.image-number {
+    color: white;
+    background: green;
+    left: 0;
+}
+
+/* hiding all other elements */
